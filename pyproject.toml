@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "psn-etl"
+name = "psn_etl"
 version = "0.1.0"
 description = "ETL playground using PSN API"
 authors = ["SebaRossi94 <seba.rossi.94@gmail.com>"]
@@ -11,6 +11,8 @@ PSNAWP = "^1.3.3"
 pandas = "^2.2.1"
 SQLAlchemy = "^2.0.27"
 matplotlib = "^3.8.3"
+alembic = "^1.13.1"
+python-json-logger = "^2.0.7"
 
 
 [build-system]
