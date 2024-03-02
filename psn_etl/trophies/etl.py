@@ -6,6 +6,7 @@ from psnawp_api.models.trophies.trophy_constants import TrophySet, PlatformType
 import pandas as pd
 from psn_etl.db.models import TrophyTitleModel
 from psn_etl.db import engine
+from psn_etl import logging_config
 
 import logging
 
